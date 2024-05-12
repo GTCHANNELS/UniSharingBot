@@ -83,7 +83,7 @@ async def start_command(client: Client, message: Message):
                 create_task(delete_func(files_reply, 600))
             except:
                 pass
-        await message.reply_text(f"Forward the files to Saved Message or somewhere else before downloading it.\n\nIt will get delete after 10 minutes.‼️")
+        await message.reply_text(f"Forward the files to saved messages or elsewhere before downloading it.\n\nIt will be removed after 10 minutes.‼️")
         return
     else:
         reply_markup = InlineKeyboardMarkup(

@@ -1,8 +1,9 @@
 #(©)Codexbotz
+import pyrogram.utils
 
+pyrogram.utils.MIN_CHANNEL_ID = -1002247320047
 from aiohttp import web
 from plugins import web_server
-
 import pyromod.listen
 from pyrogram import Client
 from pyrogram.enums import ParseMode

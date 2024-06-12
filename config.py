@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7472202044:AAHcS3zoWGa0fWGY372YXdA98rcMK1sphB8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6933905260:AAGjPAsVVBM5nYKFtjW3PXb_N9C6CBBHM18")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "23273287"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "23273287"))
 API_HASH = os.environ.get("API_HASH", "2c8dbe9c5823a819a25201d7c2ccc3c6")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002247320047"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002019845451"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6930184116"))
@@ -28,16 +28,16 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6930184116"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://roronoazoro234:roronoazoro234@cluster0.ypecxdv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ajaysinghyttest:FDvz6NjiNGxE6cCb@cluster0.wb45nyp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Mongodb")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001698000035"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002106420058"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hey Buddy\n\nI'm Roronoa Zoro Future Pirate Kings Right Hand Man Working For UHO")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nMy Name Is UNIP0RNHUB Bot And I'm Working For UHO")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "Hey Buddy You Want Direction Or Something 🤨"
+USER_REPLY_TEXT = "Hey {mention} What Are You Doing Here I'm Gonna Tell Your Mom About This 💀"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6930184116)

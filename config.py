@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7446092651:AAHl1c4EEXXmyuY6i2PhrOG-jcrFGi6SW5o")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7356059499:AAFxsaee0Ql8hjySE9VKgJHSffDYYH5ymxY")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "23273287"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "23273287"))
 API_HASH = os.environ.get("API_HASH", "2c8dbe9c5823a819a25201d7c2ccc3c6")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002242381050"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002185549059"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6930184116"))
@@ -28,17 +28,17 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6930184116"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://NoelleSilva:ZgbUvhMuaSZCBgQ2@cluster0.fj0odgm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://OnePieceAnimeRobot:OnePieceBot@cluster0.hh6miv1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Mongodb")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001629115398"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001698000035"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002219435246"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001629115398"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nMy Name Is Noelle Silva And I'm Working For UHO")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nI'm One Piece File Sharing Bot Created By @Anime10x")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -59,7 +59,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "Hey You Can't Send Me Message Like That I'm Royalty 😮‍💨"
+USER_REPLY_TEXT = "If You Want To Watch One Piece Join In @One_Piece_Subbed1 & @One_Piece_Dubbed1 You Will Find All Episodes Links"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6930184116)

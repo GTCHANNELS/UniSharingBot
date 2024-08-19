@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7401878274:AAFhVwlsiOkedfZcNXXkuW-0gYF24ytiEh4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6933905260:AAEYJcaM4xikfXNT5OvTsHDJd2nQNI2-v6g")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "23273287"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "23273287"))
 API_HASH = os.environ.get("API_HASH", "2c8dbe9c5823a819a25201d7c2ccc3c6")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002150666644"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002019845451"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6930184116"))
@@ -28,17 +28,17 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6930184116"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Ayane:Shirakawa@cluster0.mo0vmtf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ajaysinghyttest:FDvz6NjiNGxE6cCb@cluster0.wb45nyp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Mongodb")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001698000035"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002211766156"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002106420058"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002248368246"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nI'm Ayane Shirakawa File Sharing Bot Created By @Censored_Hentai")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nI'm A File Sharing Bot Created By @Adult_Vi3dios")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -59,7 +59,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "If You Want To Watch Exclusive Hemtai 😉 Please Join In @Censored_Hentai You Will Find All Shorts Of Hemtai Links"
+USER_REPLY_TEXT = "I Know What Your Looking For Just Join In This Channel @Adult_Vid3os 💋"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6930184116)
